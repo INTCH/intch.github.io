@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(36, 36, 36);
+}
+img {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    user-select: none;
+}
+div{
+    color: rgb(211, 220, 228);
+}
+br{
+    user-select: none;
+    -moz-window-dragging: no-drag;
+}
+.social{
+    margin: 1em;
+    position: fixed;
+
+}
+.social a{
+    color: aliceblue;
+}
+.social a:hover{
+    color: rgb(203, 214, 223);
+}
+
+.projects img{
+    transition: 0.3s;
+}
+
+.projects img:hover{
+    transform: scale(1.05);
+}
+
+.logo{
+    transition: 0.3s;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+    cursor: crosshair;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.features ul li{
+    padding-top: 15px;
+}
+
+.features ul li text{
+    transition: 0.1s;
+    cursor:default;
+    background-color: rgb(17, 17, 17);
+    border-radius: 1em;
+    border-color: rgb(17, 17, 17);
+    border-style: dotted;
+    user-select: none;
+}
+
+.features ul li text:hover{
+    background-color: aliceblue;
+    border-color: aliceblue;
+    color: rgb(17, 17, 17);
+}
+
+.ulleft{
+    float: right;
+    text-align: right;
+}
+.ulright{
+    float: left;  
+    text-align: left;
+}
+
+.navbartch a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.navbartch a:hover{
+    color: rgb(248, 224, 193);
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid rgb(22, 22, 22); 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+    background-color: rgb(19, 19, 19);
+    overflow: hidden;
+    outline: none;
+    color: antiquewhite;
+ }
+  
+
+  input[type=submit] {
+    transition: 0.3s;
+    background-color: rgb(19, 19, 19);
+    color: aliceblue;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: aliceblue;
+    color: rgb(19, 19, 19);
+  }
+
+.contactdata ul li text{
+
+    transition: 0.1s;
+    cursor:default;
+    background-color: rgb(39, 39, 39);
+    border-radius: 0.5em;
+    border-color: rgb(39, 39, 39);
+    border-style: dotted;
+    user-select: none;
+
+}
+
+.contactdata ul li text:hover{
+
+    transition: 0.1s;
+    cursor:default;
+    background-color: rgb(26, 26, 26);
+    border-radius: 1em;
+    border-color: rgb(26, 26, 26);
+    border-style: dotted;
+    user-select: none;
+    cursor: pointer;
+
+}
+
+.contactdata ul li{
+    padding-top: 15px;
+    font-size: 150%;
+}
+
+.contactdata a{
+    color: rgb(211, 220, 228);
+    text-decoration: none;
+}
