@@ -18,6 +18,7 @@ br{
 .social{
     margin: 1em;
     position: fixed;
+    z-index: 2;
 
 }
 .social a{
