@@ -48,7 +48,7 @@ main section button{
     border-radius: 0.9em;
     border: 2px solid aliceblue;
     background-color: transparent;
-    font-size: x-large;
+    font-size: 1.2em;
     font-family: 'Exo', sans-serif;
     color: aliceblue;
     overflow: hidden;
@@ -77,8 +77,6 @@ main section button:hover{
 
 .buttons button:hover{
     cursor: pointer;
-    height: 80px;
-    width: 80px;
 }
 
 .buttons button::after{
@@ -89,12 +87,22 @@ main section button:hover{
     margin-left: 1%;
     justify-content: left;
     rotate: 90deg;
+    transition: 0.3s;
+}
+
+.buttons .left:hover{
+    rotate: 180deg;
+}
+
+.buttons .right:hover{
+    rotate: 0deg;
 }
 
 .buttons .right{
     margin-right: 2%;
     justify-content: right;
-    rotate: 270deg;
+    rotate: -90deg;
+    transition: 0.3s;
 }
 
 footer{
